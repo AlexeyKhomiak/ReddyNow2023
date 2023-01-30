@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>List of available books from the table Bookshelf</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Available</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_965246_library_c_bookshelf</name>
+        <order>110</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-26 19:03:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c75600397a0211022dd35371153af54</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_965246_library_c_bookshelf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>sys_app_module_5c75600397a0211022dd35371153af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 13:34:55</sys_updated_on>
+        <timeline_page/>
+        <title>Available</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library and Book Management">e168f4029760211022dd35371153af22</application>
+        <file_path/>
+        <instance_id>616f33d0dbd900100b9d21c4059619f5</instance_id>
+        <instance_name>dev95004</instance_name>
+        <name>sys_app_module_5c75600397a0211022dd35371153af54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint>List of available books from the table Bookshelf</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Available</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_965246_library_c_bookshelf</name><order>110</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-26 19:03:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5c75600397a0211022dd35371153af54</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_965246_library_c_bookshelf</sys_name><sys_overrides/><sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package><sys_policy/><sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope><sys_update_name>sys_app_module_5c75600397a0211022dd35371153af54</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-30 13:34:55</sys_updated_on><timeline_page/><title>Available</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-969096276</payload_hash>
+        <record_name>Available</record_name>
+        <reverted_from/>
+        <source>67cac8079720211022dd35371153af77</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 13:42:43</sys_created_on>
+        <sys_id>24b284549770211022dd35371153af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18602ea6e540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 13:42:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5ae084d0e07021106d5210acc53e817e</update_guid>
+        <update_guid_history>5ae084d0e07021106d5210acc53e817e:-208930377,5ae084d0e07021106d5210acc53e817e:-208930377,42e34b3b51242110fa95fc2d308862b5:1601907914,5a33033b512421106d481926c1013277:1231628122,fac134cb71a0211025ce752318a1840f:-208930377,5740b08b94a02110e569227736111783:-307922168,c5efac4b4ba021109d47effbd29be6fe:641101064,95bfe04bd3a02110643d4cbad8486afd:807399752,5ab5640379a02110af4b5012e10ff7ab:-208930377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Available">12c200549770211022dd35371153afc8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 13:43:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>348e89627eaf44f6a3493be3dc343b79</sys_id>
+        <sys_metadata>5c75600397a0211022dd35371153af54</sys_metadata>
+        <sys_name>x_965246_library_c_bookshelf</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_scope_delete display_value="">83bcfc9bff0b4c1893c0e94700540840</sys_scope_delete>
+        <sys_update_name>sys_app_module_5c75600397a0211022dd35371153af54</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5c75600397a0211022dd35371153af54">24b284549770211022dd35371153af33</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
