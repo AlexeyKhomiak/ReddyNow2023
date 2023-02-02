@@ -6,7 +6,7 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
         <sys_update_name>sys_db_object_7f99dc079760211022dd35371153af39</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="x_965246_library_c.library_mng_app_admin" name="x_965246_library_c.library_mng_app_admin">767830ce9720211022dd35371153af0b</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

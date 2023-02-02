@@ -4,10 +4,7 @@
         <application display_value="Library and Book Management">5ff2c4549770211022dd35371153afb3</application>
         <assessment/>
         <device_type/>
-        <filter table="x_965246_library_c_possession">taken&lt;javascript:gs.beginningOfToday()^return_expected&gt;javascript:gs.endOfToday()^EQ<item endquery="false" field="taken" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfToday()"/>
-            <item endquery="false" field="return_expected" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfToday()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint>A list of books that read by Subscribers</hint>
         <homepage/>
         <image/>
