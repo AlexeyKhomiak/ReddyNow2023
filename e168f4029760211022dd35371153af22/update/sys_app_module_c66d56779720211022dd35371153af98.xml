@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Library and Book Management">5ff2c4549770211022dd35371153afb3</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_user_grmember">group=7fee227797e0211022dd35371153aff7^user.active=true^EQ<item display_table="sys_user_group" display_value="Librarians" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="7fee227797e0211022dd35371153aff7"/>
+            <item endquery="false" field="user.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of all active users with role x_&lt;scope&gt;_library.library_mng_app_admin and x_&lt;scope&gt;_library.library_mng_app_librarian</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Admin</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_user_grmember</name>
+        <order>310</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_965246_library_c.library_mng_app_admin,x_965246_library_c.library_mng_app_librarian</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 11:50:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c66d56779720211022dd35371153af98</sys_id>
+        <sys_name>Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>sys_app_module_c66d56779720211022dd35371153af98</sys_update_name>
+        <timeline_page/>
+        <title>Admin</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
