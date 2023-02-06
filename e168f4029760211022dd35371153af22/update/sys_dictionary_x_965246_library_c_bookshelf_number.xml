@@ -11,7 +11,7 @@
         <column_label>Number</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
