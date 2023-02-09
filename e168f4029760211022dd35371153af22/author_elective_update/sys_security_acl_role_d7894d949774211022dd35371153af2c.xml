@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 18:52:41</sys_created_on>
+        <sys_id>d7894d949774211022dd35371153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_965246_library_c.library_mng_app_librarian</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_security_acl display_value="">8b590d949774211022dd35371153afb9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d7894d949774211022dd35371153af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 18:52:41</sys_updated_on>
+        <sys_user_role display_value="x_965246_library_c.library_mng_app_librarian" name="x_965246_library_c.library_mng_app_librarian">27c4e6fb97a0211022dd35371153af0f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library and Book Management">e168f4029760211022dd35371153af22</application>
+        <file_path/>
+        <instance_id>616f33d0dbd900100b9d21c4059619f5</instance_id>
+        <instance_name>dev95004</instance_name>
+        <name>sys_security_acl_role_d7894d949774211022dd35371153af2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-30 18:52:41</sys_created_on><sys_id>d7894d949774211022dd35371153af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_965246_library_c.library_mng_app_librarian</sys_name><sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package><sys_policy/><sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope><sys_security_acl display_value="">8b590d949774211022dd35371153afb9</sys_security_acl><sys_update_name>sys_security_acl_role_d7894d949774211022dd35371153af2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-30 18:52:41</sys_updated_on><sys_user_role display_value="x_965246_library_c.library_mng_app_librarian" name="x_965246_library_c.library_mng_app_librarian">27c4e6fb97a0211022dd35371153af0f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1987332134</payload_hash>
+        <record_name>.x_965246_library_c.library_mng_app_librarian</record_name>
+        <reverted_from/>
+        <source>67cac8079720211022dd35371153af77</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 18:52:41</sys_created_on>
+        <sys_id>0da9c5949774211022dd35371153af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186040637700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 18:52:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>45a9c59423742110e3c82789d0931f50</update_guid>
+        <update_guid_history>45a9c59423742110e3c82789d0931f50:1987332134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_965246_library_c.library_mng_app_librarian">cc8cf7d39770211022dd35371153af4a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 15:35:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>12cfb16bc07e49cc81c9d35e8b2647a1</sys_id>
+        <sys_metadata>d7894d949774211022dd35371153af2c</sys_metadata>
+        <sys_name>.x_965246_library_c.library_mng_app_librarian</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_parent display_value="x_965246_library_c_bookshelf.number">8b590d949774211022dd35371153afb9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_scope_delete display_value="">83bcfc9bff0b4c1893c0e94700540840</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d7894d949774211022dd35371153af2c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d7894d949774211022dd35371153af2c">0da9c5949774211022dd35371153af50</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

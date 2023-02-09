@@ -17,7 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_965246_library_c.library_mng_app_admin,x_965246_library_c.library_mng_app_librarian</roles>
+        <roles>x_965246_library_c.library_mng_app_admin,x_965246_library_c.library_mng_app_librarian,x_965246_library_c.library_mng_app_subscriber</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 15:21:37</sys_created_on>
