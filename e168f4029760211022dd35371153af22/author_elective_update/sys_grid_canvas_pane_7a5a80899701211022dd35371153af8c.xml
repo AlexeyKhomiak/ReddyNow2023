@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA LBM Feedbacks - New Tab">f185c4819701211022dd35371153afed</grid_canvas>
+        <height>8</height>
+        <portal_widget display_value="Created 2023-02-14 09:27:20">7e5a80899701211022dd35371153af89</portal_widget>
+        <posx>4</posx>
+        <posy>20</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 08:27:20</sys_created_on>
+        <sys_id>7a5a80899701211022dd35371153af8c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>f185c4819701211022dd35371153afed</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_7a5a80899701211022dd35371153af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 09:46:33</sys_updated_on>
+        <width>7</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library and Book Management">e168f4029760211022dd35371153af22</application>
+        <file_path/>
+        <instance_id>616f33d0dbd900100b9d21c4059619f5</instance_id>
+        <instance_name>dev95004</instance_name>
+        <name>sys_grid_canvas_pane_7a5a80899701211022dd35371153af8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA LBM Feedbacks - New Tab">f185c4819701211022dd35371153afed</grid_canvas><height>8</height><portal_widget display_value="Created 2023-02-14 09:27:20">7e5a80899701211022dd35371153af89</portal_widget><posx>4</posx><posy>20</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-14 08:27:20</sys_created_on><sys_id>7a5a80899701211022dd35371153af8c</sys_id><sys_mod_count>9</sys_mod_count><sys_name>f185c4819701211022dd35371153afed</sys_name><sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package><sys_policy/><sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope><sys_update_name>sys_grid_canvas_pane_7a5a80899701211022dd35371153af8c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-14 09:46:33</sys_updated_on><width>7</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-1321797863</payload_hash>
+        <record_name>f185c4819701211022dd35371153afed</record_name>
+        <reverted_from/>
+        <source>67cac8079720211022dd35371153af77</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 09:46:33</sys_created_on>
+        <sys_id>177c900d9741211022dd35371153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864f519beb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 09:46:33</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>1f7c900d9b4121101d67be02d76d5090</update_guid>
+        <update_guid_history>1f7c900d9b4121101d67be02d76d5090:-1321797863,856c580d4e4121109487cfa9824a42b9:-1353357480,de5c980dad4121108cca2a145a9a007d:-352216840,185c140dbb4121101619935f6062b94c:306849241,4c9a88c9bc012110bac7c35fd6ad5147:-1972950216,c38a04c9fb012110d03ec8c115b8cf44:1605061221,c18ac0892a0121100bfed67ec8924278:-11401471,e27a08c9e2012110617a013a3d28f3b9:2009947850,256ac4c910012110c809c2ba5bad5f8e:966159881,765a808913012110c45134521331738e:1530367740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 09:46:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>2130af71279e401889868ef3548d38d9</sys_id>
+        <sys_metadata>7a5a80899701211022dd35371153af8c</sys_metadata>
+        <sys_name>f185c4819701211022dd35371153afed</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_scope_delete display_value="">83bcfc9bff0b4c1893c0e94700540840</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_7a5a80899701211022dd35371153af8c</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_7a5a80899701211022dd35371153af8c">177c900d9741211022dd35371153af91</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="LBM for Librarian">cdc920af97f0211022dd35371153af3c</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 18:56:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f55a68af97f0211022dd35371153af02</sys_id>
+        <sys_name>cdc920af97f0211022dd35371153af3c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_f55a68af97f0211022dd35371153af02</sys_update_name>
+        <tab display_value="LBM for Librarian - New Tab">b95a28af97f0211022dd35371153afff</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

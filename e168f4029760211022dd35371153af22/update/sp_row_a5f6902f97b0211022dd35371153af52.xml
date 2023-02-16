@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="LBMHome - Container 1">d8c698eb97b0211022dd35371153afa9</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 17:31:32</sys_created_on>
+        <sys_id>a5f6902f97b0211022dd35371153af52</sys_id>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>sp_row_a5f6902f97b0211022dd35371153af52</sys_update_name>
+    </sp_row>
+</record_update>

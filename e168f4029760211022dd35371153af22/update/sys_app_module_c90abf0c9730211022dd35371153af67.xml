@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Library and Book Management">5ff2c4549770211022dd35371153afb3</application>
+        <application display_value="Library and Book Management">1fef43ec9701211022dd35371153af87</application>
         <assessment/>
         <device_type/>
         <filter table="sys_user_grmember">group=d63236b797e0211022dd35371153afd2^user.active=true^EQ<item display_table="sys_user_group" display_value="Subscribers" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="d63236b797e0211022dd35371153afd2"/>

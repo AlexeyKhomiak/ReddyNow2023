@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mark" table="x_965246_library_c_feedback" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mark</element>
+            <name>x_965246_library_c_feedback</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-13 09:06:00</sys_created_on>
+            <sys_name>mark</sys_name>
+            <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+            <sys_update_name>sys_choice_x_965246_library_c_feedback_mark</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awesome</label>
+            <language>en</language>
+            <name>x_965246_library_c_feedback</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-13 09:06:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>awesome</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Good</label>
+            <language>en</language>
+            <name>x_965246_library_c_feedback</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-13 09:06:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>good</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Just OK</label>
+            <language>en</language>
+            <name>x_965246_library_c_feedback</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-13 09:06:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>just ok</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ugly</label>
+            <language>en</language>
+            <name>x_965246_library_c_feedback</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-13 09:06:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>ugly</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

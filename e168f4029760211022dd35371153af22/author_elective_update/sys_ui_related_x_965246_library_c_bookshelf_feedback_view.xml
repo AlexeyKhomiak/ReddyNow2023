@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_965246_library_c_bookshelf" version="2" view="feedback_view">
+        <sys_ui_related_list action="DELETE">
+            <calculated_name/>
+            <filter/>
+            <name>x_965246_library_c_bookshelf</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>04a0afa09781211022dd35371153afb9</sys_id>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2023-02-13 14:25:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Feedback view" name="feedback_view">08ab1f6c9741211022dd35371153af92</view>
+            <view_name>feedback_view</view_name>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library and Book Management">e168f4029760211022dd35371153af22</application>
+        <file_path/>
+        <instance_id>616f33d0dbd900100b9d21c4059619f5</instance_id>
+        <instance_name>dev95004</instance_name>
+        <name>sys_ui_related_x_965246_library_c_bookshelf_feedback_view</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_965246_library_c_bookshelf" version="2" view="feedback_view"><sys_ui_related_list action="DELETE"><calculated_name/><filter/><name>x_965246_library_c_bookshelf</name><order_by/><position/><related_list/><sys_class_name/><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>04a0afa09781211022dd35371153afb9</sys_id><sys_mod_count/><sys_name/><sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package><sys_policy/><sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2023-02-13 14:25:03</sys_updated_on><sys_user/><view display_value="Feedback view" name="feedback_view">08ab1f6c9741211022dd35371153af92</view><view_name>feedback_view</view_name></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-1625538575</payload_hash>
+        <record_name>Bookshelf</record_name>
+        <reverted_from/>
+        <source>67cac8079720211022dd35371153af77</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-13 14:25:03</sys_created_on>
+        <sys_id>c5a25c309745211022dd35371153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864b2a39d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-13 14:25:03</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>8da25c30254521103ae4328d76b52f94</update_guid>
+        <update_guid_history>8da25c30254521103ae4328d76b52f94:-1625538575,c0a0afa0fe812110dd3d73eacd8755bb:-1757984647,ef90afa09c8121107a7ab38bf7643133:993258604,4920a7a096812110c7360a9439c5d39e:-1194137431,2f1067a01281211051ea8429f7a6daed:376337713,3d10a3a00a812110216c0966297f7514:1780623838,2910a3a0928121100450d4b41e764b0d:309110687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-13 14:28:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>8b91fa4a639744f4b85f92d2a3f92a10</sys_id>
+        <sys_metadata>baf25c709745211022dd35371153af39</sys_metadata>
+        <sys_name>Bookshelf - Feedback view</sys_name>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_parent display_value="Bookshelf">c54a70829760211022dd35371153af99</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_scope_delete display_value="">83bcfc9bff0b4c1893c0e94700540840</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_965246_library_c_bookshelf_feedback_view</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_965246_library_c_bookshelf_feedback_view">c5a25c309745211022dd35371153af95</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

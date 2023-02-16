@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fcef32a09701211022dd35371153af6e" label="Feedback" max_length="40" name="x_965246_library_c_feedback" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_965246_library_c_bookshelf" type="reference"/>
+        <element default="javascript: new GlideDateTime().getDate();" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="3" default="awesome" label="Mark" mandatory="true" max_length="40" name="mark" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awesome" sequence="0" value="awesome"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+                <element inactive_on_update="false" label="Just OK" sequence="2" value="just ok"/>
+                <element inactive_on_update="false" label="Ugly" sequence="3" value="ugly"/>
+            </choice>
+        </element>
+        <element label="Text" max_length="2048" name="text" type="string"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+    </element>
+</database>
