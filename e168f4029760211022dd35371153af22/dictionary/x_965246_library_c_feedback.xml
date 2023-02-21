@@ -10,9 +10,13 @@
                 <element inactive_on_update="false" label="Ugly" sequence="3" value="ugly"/>
             </choice>
         </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Subscriber" max_length="32" name="subscriber" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
         <element label="Text" max_length="2048" name="text" type="string"/>
         <index name="index">
             <element name="book"/>
+        </index>
+        <index name="index2">
+            <element name="subscriber"/>
         </index>
     </element>
 </database>
