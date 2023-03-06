@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_965246_library_c_feedback</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Limit feedback creation</name>
+        <order>160</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions>x_965246_library_c.library_mng_app_subscriber</role_conditions>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+  // Add your code here
+  var possessionGA = new GlideAggregate("x_965246_library_c_possession");
+  possessionGA.addAggregate("COUNT", "subscriber");
+  possessionGA.query("subscriber", gs.getUserID());
+  possessionGA.query();
+  var possessionUserCount = 0;
+
+  if (possessionGA.next()) {
+    possessionUserCount = possessionGA.getAggregate("COUNT", "subscriber") * 1;
+  }
+
+  var feedbackGA = new GlideAggregate("x_965246_library_c_feedback");
+  feedbackGA.addAggregate("COUNT");
+  feedbackGA.query("subscriber", gs.getUserID());
+  feedbackGA.query();
+  var feedbackUserCount = 0;
+  if (feedbackGA.next()) {
+    feedbackUserCount = feedbackGA.getAggregate("COUNT") * 1;
+  }
+
+  if (possessionUserCount <= feedbackUserCount) {
+    gs.addInfoMessage(
+      "Warning message: you have " +
+        possessionUserCount +
+        " possessions. Number of feedbacks: " +
+        feedbackUserCount +
+        "."
+    );
+  }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 17:06:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54cdbcd997d5211022dd35371153af08</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Limit feedback creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
+        <sys_update_name>sys_script_54cdbcd997d5211022dd35371153af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-06 10:50:52</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=54cdbcd997d5211022dd35371153af08"/>
+</record_update>

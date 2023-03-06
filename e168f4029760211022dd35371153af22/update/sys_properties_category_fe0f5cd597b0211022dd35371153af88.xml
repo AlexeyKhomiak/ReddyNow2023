@@ -5,12 +5,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-02 18:21:29</sys_created_on>
         <sys_id>fe0f5cd597b0211022dd35371153af88</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Library and Book Managment</sys_name>
         <sys_package display_value="Library and Book Management" source="x_965246_library_c">e168f4029760211022dd35371153af22</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library and Book Management">e168f4029760211022dd35371153af22</sys_scope>
         <sys_update_name>sys_properties_category_fe0f5cd597b0211022dd35371153af88</sys_update_name>
-        <title><![CDATA[<p>Library and Book Managment</p>]]></title>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 08:10:21</sys_updated_on>
+        <title><![CDATA[<p>Library and Book Managment</p>
+x_965246_library_c.possession_time
+x_965246_library_c.number_allowed_feedbacks]]></title>
     </sys_properties_category>
     <sys_translated_text action="delete_multiple" query="documentkey=fe0f5cd597b0211022dd35371153af88"/>
 </record_update>
